@@ -17,6 +17,18 @@
     --bodyFont: 'Josefin Sans', serif;
 }
 
+/*  Key Frames Animations */
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0; /* Start invisible */
+        transform: translateX(-100%); /* Off-screen to the left */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateX(0); /* Back to original position */
+    }
+}
+
 /* Global Typography and Body Styling */
 body {
     font-family: var(--bodyFont);
@@ -155,6 +167,9 @@ section {
     padding: 40px;
 }
 
+.breadySetGo .textContent{ /* Sliding animation */
+    animation: slideInFromLeft 1s ease-out forwards;
+}
 
 .imageContent img{
     max-width: 400px;
