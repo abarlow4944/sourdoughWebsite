@@ -18,10 +18,12 @@ This website is a personal project designed to simplify sourdough baking for beg
 - **Recipes**:
   - **Sourdough Bread**: Classic and artisan recipes.
   - **Discard Recipes**: Creative ways to use leftover starter discard.
-- **Blog**: Personal stories, sourdough experiments, and baking lessons.
-- **Community**:
-  - **Gallery**: Showcase sourdough creations.
-  - **Forum**: Connect with other bakers, share tips, and ask questions.
+  - **Recipe Search**: Search for a recipe using Spoonacular API based on the ingredients you have on hand.
+- **Sourdough Quality Check**: Check the quality of your sourdough loaf by uploading a picture using Google Vision API.
+- **Shop**:
+  - **Sourdough Loaves**: Order a custom sourdough loaf based on flour type and inclusions.
+  - **Sourdough Starters**: Order a sourdough starter to kickstart your baking journey.
+  - **Sourdough Tools**: Order bread lames, bench scrapers, and bannetons from a Walmart near you using Walmart API.
 
 ---
 
@@ -32,6 +34,11 @@ This website is a personal project designed to simplify sourdough baking for beg
 - **Google Fonts**: For custom typography.
 - **Git & GitHub**: Version control and project hosting.
 - **VS Code**: My text editor of choice.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License. You’re free to use and adapt this project for personal or educational purposes.
 
 ---
 
