@@ -28,26 +28,22 @@ body {
 
 h1, h2 {
     font-family: var(--titleFont);
-    color: var(--salmon);
+}
+
+h1 {
+    color: var(--cream);
+    font-size: 50px;
 }
 
 p {
     color: var(--brown);
 }
 
-/* Header and Navigation */
-/* Header */
 header {
     background: var(--salmon);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
-}
-
-header h1 {
-    font-family: var(--titleFont);
-    color: var(--cream);
-    font-size: 50px;
 }
 
 /* Navigation Menu */
@@ -56,7 +52,6 @@ header h1 {
     justify-content: center;
     list-style: none;
     margin-top: 10px;
-    border-radius: 8px;
 }
 
 .menu li {
@@ -69,7 +64,6 @@ header h1 {
     color: var(--cream);
     font-family: var(--bodyFont);
     font-weight: bold;
-    padding: 5px, 10px;
     transition: color 0.3s ease;
 }
 
@@ -78,33 +72,38 @@ header h1 {
 }
 
 /* Dropdown Menu */
-.dropdown .submenu{
-    display: none;
+.dropdown .dropdownContent{
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 100%; /* Align below parent */
     left: 50%; /* Center relative to parent */
-    transform: translateX(-50%); /* Adjust to center */
+    transform: translate(-50%, -10px); /* Adjust to center */
     background:var(--salmon);
     list-style: none;
     padding: 10px;
     border-radius: 8px;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 10;
 }
 
-.dropdown:hover .submenu {
-    display: block; /* Show dropdown on hover */
+.dropdown:hover .dropdownContent {
+    opacity: 1; /* Show dropdown on hover */
+    visibility: visible;
+    transform: translate(-50%, 0); /* Return to normal position */
 }
 
-.submenu li {
+.dropdownContent li {
     margin: 0;
 }
 
-.submenu a {
+.dropdownContent a {
     display: block;
     padding: 5px 10px;
     color: var(--cream);
 }
 
-.submenu a:hover {
+.dropdownContent a:hover {
     color: var(--brown);
     border-radius: 4px;
 }
@@ -150,6 +149,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
+    transition: 0.3s ease;
 }
 
 button:hover {
