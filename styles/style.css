@@ -23,7 +23,7 @@ body {
     line-height: 1.6;
     color: var(--salmon); /* font colour */
     background-color: var(--cream); /* background */
-    padding: 25px;
+    width: 100%;
 }
 
 h1, h2 {
@@ -32,7 +32,12 @@ h1, h2 {
 
 h1 {
     color: var(--cream);
-    font-size: 50px;
+    font-size: 70px;
+}
+
+h2 {
+    color: var(--salmon);
+    font-size: 40px;
 }
 
 p {
@@ -41,12 +46,24 @@ p {
 
 header {
     background: var(--salmon);
-    padding: 20px;
+    padding: 70px;
     text-align: center;
-    border-radius: 8px;
+    padding-bottom: 20px;
 }
 
 /* Navigation Menu */
+
+.navBar{
+    position: sticky; /* Keep the navigation bar at the top even as you scroll */
+    top: 0; /* Anchor to top */
+    z-index: 1000; /* Keep on top of other elements */
+    background: var(--salmon);
+}
+
+.navBar nav {
+    padding: 10px 0; /* Add some padding inside the navigation */
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -56,7 +73,6 @@ header {
 
 .menu li {
     margin: 0 15px;
-    position: relative;
 }
 
 .menu a {
@@ -72,8 +88,10 @@ header {
 }
 
 /* Dropdown Menu */
+.dropdown {
+    position: relative; 
+}
 .dropdown .dropdownContent{
-    opacity: 0;
     visibility: hidden;
     position: absolute;
     top: 100%; /* Align below parent */
@@ -88,7 +106,6 @@ header {
 }
 
 .dropdown:hover .dropdownContent {
-    opacity: 1; /* Show dropdown on hover */
     visibility: visible;
     transform: translate(-50%, 0); /* Return to normal position */
 }
@@ -111,21 +128,39 @@ header {
 /* Main Content */
 main {
     margin: 20px 0;
+    padding: 100px;
+    padding-top: 30px;
 }
 
 section {
     margin-bottom: 20px;
 }
 
-section img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    border-radius: 8px;
+/* Bready Set Go Section */
+.breadySetGo{
+    padding: 40px 20px;
+    margin-bottom: 20px;
 }
 
+.contentWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and image */
+    gap: 20px;
+}
+
+.textContent {
+    flex: 1;
+    align-items: bottom;
+    padding: 40px;
+}
+
+
+.imageContent img{
+    max-width: 400px;
+    border-radius: 8px;
+    transform: rotate(0deg);
+}
 
 /* List Styling */
 section ul, section ol {
