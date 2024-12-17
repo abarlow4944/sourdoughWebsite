@@ -1,0 +1,165 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colour Pallete & Fonts */
+:root {
+    --salmon: #F98866;
+    --cream: #FFF2D7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --brown: #3e3729;
+
+    --titleFont: 'Yeseva One', serif;
+    --bodyFont: 'Josefin Sans', serif;
+}
+
+/* Global Typography and Body Styling */
+body {
+    font-family: var(--bodyFont);
+    line-height: 1.6;
+    color: var(--salmon); /* font colour */
+    background-color: var(--cream); /* background */
+    padding: 25px;
+}
+
+h1, h2 {
+    font-family: var(--titleFont);
+    color: var(--salmon);
+}
+
+p {
+    color: var(--brown);
+}
+
+/* Header and Navigation */
+/* Header */
+header {
+    background: var(--salmon);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-family: var(--titleFont);
+    color: var(--cream);
+    font-size: 50px;
+}
+
+/* Navigation Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.menu li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cream);
+    font-family: var(--bodyFont);
+    font-weight: bold;
+    padding: 5px, 10px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: var(--brown);
+}
+
+/* Dropdown Menu */
+.dropdown .submenu{
+    display: none;
+    position: absolute;
+    top: 100%; /* Align below parent */
+    left: 50%; /* Center relative to parent */
+    transform: translateX(-50%); /* Adjust to center */
+    background:var(--salmon);
+    list-style: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.dropdown:hover .submenu {
+    display: block; /* Show dropdown on hover */
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu a {
+    display: block;
+    padding: 5px 10px;
+    color: var(--cream);
+}
+
+.submenu a:hover {
+    color: var(--brown);
+    border-radius: 4px;
+}
+
+/* Main Content */
+main {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+
+/* List Styling */
+section ul, section ol {
+    color: var(--brown); /* Ensure unordered and ordered lists are brown */
+    margin-left: 20px; /* Add spacing for list indentation */
+    padding-left: 20px; /* Consistent padding */
+}
+
+section ul li, section ol li {
+    color: var(--brown); /* Ensure list items inherit the correct color */
+}
+
+/* Button */
+button {
+    font-family: var(--bodyFont);
+    display: inline-block;
+    background: var(--salmon);
+    color: var(--cream);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: var(--brown);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: var(--brown);
+}
