@@ -67,7 +67,7 @@ header {
 
 .navBar{
     position: sticky; /* Keep the navigation bar at the top even as you scroll */
-    top: 0; /* Anchor to top */
+    top: -1px; /* Anchor to top */
     z-index: 1000; /* Keep on top of other elements */
     background: var(--salmon);
 }
@@ -138,33 +138,19 @@ header {
 }
 
 /* Main Content */
-main {
-    margin: 20px 0;
-    padding: 100px;
-    padding-top: 30px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
 /* Bready Set Go Section */
-.breadySetGo{
-    padding: 40px 20px;
-    margin-bottom: 20px;
-}
-
 .contentWrapper{
     display: flex;
     align-items: center;
     justify-content: space-between; /* Space between text and image */
     gap: 20px;
+    padding: 80px 250px;
 }
 
 .textContent {
     flex: 1;
     align-items: bottom;
-    padding: 40px;
+    padding: 0px 40px;
 }
 
 .breadySetGo .textContent{ /* Sliding animation */
@@ -173,9 +159,35 @@ section {
 
 .imageContent img{
     max-width: 400px;
-    border-radius: 8px;
-    transform: rotate(0deg);
+    border-radius: 8px; /* circular edges */
 }
+
+/* About Me Section */
+.aboutMe{
+    background-color: var(--white);
+}
+
+.aboutMe .contentWrapper{
+    flex-direction: column; /* line flex items on top of each other */
+}
+
+.imageRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circleImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* circle shape */
+    object-fit: cover; /* keep aspect ratio */
+
+}
+
+
+
 
 /* List Styling */
 section ul, section ol {
