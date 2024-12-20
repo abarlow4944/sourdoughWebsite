@@ -53,6 +53,7 @@
                     <h2>Bready, Set, Go!</h2>
                     <p>Welcome to Alicia's Sourdough Guide! A cozy corner on the web dedicated to all things sourdough: from nurturing your first starter to mastering artisan loaves. Whether you’re a beginner or a seasoned baker, you’ll find everything you need to help your sourdough passion thrive.</p>
                 </div>
+
                 <div class= "imageContent">
                     <img src= "images/sourdoughPink.jpg" alt= "Sourdough Bread" />
                 </div>
@@ -65,6 +66,7 @@
                     <h2>About Me</h2>
                     <p>Hi, I’m Alicia—a home baker who fell in love with sourdough during my search for a new hobby. What started as a way to pass the time quickly became a passion for nurturing my starter and experimenting with new recipes. If the thought of creating and maintaining a sourdough starter feels overwhelming, you’re not alone—I’ve been there too. But here’s the good news: sourdough doesn’t have to be complicated! Here, I’ll break it all down into easy, manageable steps to help you succeed at every stage, whether it’s your first starter or your 50th loaf. Together, we’ll make sourdough baking simple, rewarding, and, most importantly, fun!</p>
                 </div> 
+
                 <div class= "imageRow">
                     <img src= "images/firstLoaf.jpg" alt= "Sourdough Bread" class= "circleImage" />
                     <img src= "images/figWalnutCrossSection.jpg" alt= "Sourdough Bread Cross-section" class= "circleImage" />
@@ -73,23 +75,39 @@
             </div>
         </section>
 
-        <section>
-            <h2>Dough You Know Sourdough?</h2>
-            <p>What even is sourdough? Sourdough is one of the oldest forms of bread, made using wild yeast and lactic bacteria instead of commercial yeast. This slow-fermentation process creates a unique, tangy flavor and a beautifully chewy texture that bakers and bread lovers adore. Unlike store-bought bread, sourdough uses just three simple ingredients: flour, water, and salt. Yet, the possibilities are endless—from classic loaves to pizza crusts, pancakes, and even desserts!</p>
-        </section>
+        <section class="doughYouKnow">
+            <div class ="contentWrapper">
+                <div class="textContent">
+                    <h2>Dough You Know Sourdough?</h2>
+                    <p>What even is sourdough? Sourdough is one of the oldest forms of bread, made using wild yeast and lactic bacteria instead of commercial yeast. This slow-fermentation process creates a unique, tangy flavor and a beautifully chewy texture that bakers and bread lovers adore. Unlike store-bought bread, sourdough uses just three simple ingredients: flour, water, and salt. Yet, the possibilities are endless—from classic loaves to pizza crusts, pancakes, and even desserts!<br><br>
+        
+                    <p>There are so many reasons why sourdough baking is so great! Here are a few:</p>
+                </div>
+            </div>
 
-        <section>
-            <h2>The Proof is in the Dough!</h2>
-            <p>There are so many reasons why sourdough baking is so great! Here are a few:</p>
-                <ul>
-                    <li><b>A Lifetime of Bread:</b> With just flour, water, and patience, a single sourdough starter can provide you with years of delicious, hearty bread. It’s a living, breathing companion in your kitchen!<br></li>
+            <div class="carousel">
+                <button class="carouselButton prev" aria-label="Previous Benefit">&lt</button>
 
-                    <li><b>Creative Freedom:</b> Sourdough is more than just bread; it’s a canvas for creativity. Experiment with different flours, flavors, and techniques to make each loaf uniquely yours.<br></li>
+                <div class="carouselContent">
+                    <div class="carouselItem active">
+                        <b>A Lifetime of Bread:</b> With just flour, water, and patience, a single sourdough starter can provide you with years of delicious, hearty bread. It’s a living, breathing companion in your kitchen!<br>
+                    </div>
+                    
+                    <div class="carouselItem">
+                        <b>Creative Freedom:</b> Sourdough is more than just bread; it’s a canvas for creativity. Experiment with different flours, flavors, and techniques to make each loaf uniquely yours.<br>
+                    </div>
     
-                    <li><b>Mindful Joy:</b> There’s something incredibly satisfying about slowing down, working with your hands, and seeing the fruits of your labor in a golden, crusty loaf fresh out of the oven.<br></li>
-    
-                    <li><b>Healthier Bread:</b> Sourdough is easier to digest, packed with natural probiotics, and has a lower glycemic index compared to conventional bread. It also doesn't contain as much gluten and is less likely to spike your blood sugar levels. It’s a treat for your taste buds <i>and </i>your body.</li>
-                </ul>
+                    <div class="carouselItem">
+                        <b>Mindful Joy:</b> There’s something incredibly satisfying about slowing down, working with your hands, and seeing the fruits of your labor in a golden, crusty loaf fresh out of the oven.<br>
+                    </div>
+                    
+                    <div class="carouselItem"><b>Healthier Bread:</b> Sourdough is easier to digest, packed with natural probiotics, and has a lower glycemic index compared to conventional bread. It also doesn't contain as much gluten and is less likely to spike your blood sugar levels. It’s a treat for your taste buds <i>and</i> your body.
+                    </div>
+                </div>
+            
+                <button class="carouselButton next" aria-label="Next Benefit">&gt</button>
+            </div>
+
         </section>
 
         <section>
@@ -107,5 +125,6 @@
 
     <!-- scripts-->
     <script src="scripts/aboutMeAnimation.js"></script>
+    <script src="scripts/doughYouKnowCarousel.js"></script>
 </body>
 </html>

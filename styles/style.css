@@ -12,6 +12,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --brown: #3e3729;
+    --pink: #F9EDE9;
 
     --titleFont: 'Yeseva One', serif;
     --bodyFont: 'Josefin Sans', serif;
@@ -199,6 +200,45 @@ header {
     transform: translateY(50px);
 }
 
+/* Dough You Know Section */
+.doughYouKnow{
+    background-color: var(--pink);
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0px 400px;
+    padding-bottom: 80px;
+}
+
+.carouselContent{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    height: 120px;
+}
+
+.carouselItem{
+    flex: 1;
+    position: absolute;
+    visibility: hidden; /* to ensure user can't interact with it */
+    opacity: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out; /* smooth fade transition */
+}
+
+.carouselItem.active{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+}
 
 /* List Styling */
 section ul, section ol {
