@@ -219,6 +219,7 @@ header {
     margin: 0px 400px;
     border-style: dotted;
     border-color: var(--salmon);
+    border-radius: 2%;
     padding: 70px 20px;
 }
 
@@ -252,6 +253,46 @@ header {
     visibility: visible;
     opacity: 1;
     position: relative;
+}
+
+/* Let's Get This Bread Section */
+.letsGetThisBread{
+    background-color: var(--cream);
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.gridItem{
+    aspect-ratio: 1; /* make each cell a square */
+    overflow: hidden;
+}
+
+.gridItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.3s ease-out;
+}
+
+.gridItem.textItem{
+    padding: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.gridItem.textItem p{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
+.gridItem img:hover{
+    transform: scale(1.1);
 }
 
 /* List Styling */
@@ -288,5 +329,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
-    color: var(--brown);
+    color: var(--cream);
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
