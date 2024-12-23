@@ -41,6 +41,7 @@
     }
 }
 
+/************************************************************** GLOBAL STUFF ********************************************************/
 /* Global Typography and Body Styling */
 body {
     font-family: var(--bodyFont);
@@ -54,7 +55,7 @@ body {
     visibility: hidden;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--titleFont);
 }
 
@@ -63,9 +64,14 @@ h1 {
     font-size: 70px;
 }
 
-h2 {
+h2, h3 {
     color: var(--salmon);
     font-size: 40px;
+}
+
+h3{
+    padding: 50px 250px 30px 250px;
+    text-align: center;
 }
 
 p {
@@ -153,7 +159,17 @@ header {
     border-radius: 4px;
 }
 
-/* Main Content */
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: var(--cream);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+/***************************************************************************** HOME PAGE ***********************************************************************/
 /* Bready Set Go Section */
 .contentWrapper{
     display: flex;
@@ -328,12 +344,71 @@ button:hover {
     background: var(--brown);
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
+/*************************************************************************** FAQ PAGE ************************************************************/
+.faqWrapper{
+    display: flex;
+    padding: 10px 150px;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.faqMenu{
+    flex: 1;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.faqMenu li {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: var(--salmon);
     color: var(--cream);
-    margin-top: 60px;
-    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.faqMenu li:hover {
+    background-color: var(--brown);
+}
+
+.faqContent{
+    flex: 3;
+}
+
+.faqSection{
+    display: none;
+}
+
+.faqSection.active{
+    display: block; /* show the active topic */
+}
+
+.accordion {
+    background-color: var(--salmon);
+    color: var(--cream);
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate{
+    transform: rotate(180deg); /* rotate arrow when the question is selected */
+}
+
+.panel{
+    display: none;
+}
+
+.panel.active{
+    display: block; /* show the answer if the user selects the question */
 }
