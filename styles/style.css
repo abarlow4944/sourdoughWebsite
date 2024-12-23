@@ -50,6 +50,10 @@ body {
     width: 100%;
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 h1, h2 {
     font-family: var(--titleFont);
 }
