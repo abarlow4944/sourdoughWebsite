@@ -1,9 +1,9 @@
 // for the accordion FAQ 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const accordion = document.querySelectorAll(".accordion");
+    const accordions = document.querySelectorAll(".accordion");
     
-    accordion.forEach(accordion => {
+    accordions.forEach(accordion => {
         accordion.addEventListener("click", () => {
             const panel = accordion.nextElementSibling;
             const arrow = accordion.querySelector(".arrow");
