@@ -406,7 +406,7 @@ button:hover {
 }
 
 .panel{
-    display: none;
+    display: none; /* initially don't show any answers */
 }
 
 .panel.active{
