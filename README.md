@@ -6,7 +6,9 @@ Welcome to **Alicia's Guide to Sourdough**, a beginner-friendly website dedicate
 
 ## 📖 Project Overview
 
-This website is a personal project designed to simplify sourdough baking for beginners and enthusiasts. It covers everything from understanding sourdough starters to exploring creative recipes and building a thriving baking community.
+This personal project, my first website, is a culmination of my passion for sourdough bread and my journey into web development. All the skills used to create this site are completely self-taught, and it's been an exciting process of learning and growing. The website is meant to simplify sourdough baking for beginners, and it covers everything from understanding sourdough starters to exploring creative recipes and building a thriving baking community. 
+
+Through building this site, I've gained hands-on experience in coding, designing, and implementing features like responsive layouts, interactive elements, and APIs. My hope is that this project serves as a foundation for future endeavours, where I can explore more advanced tools and concepts to create even more complex and dynamic websites.
 
 ---
 
@@ -16,7 +18,7 @@ This website is a personal project designed to simplify sourdough baking for beg
 - **FAQ**: Answers to common sourdough questions to troubleshoot your baking.
 - **Sourdough Starter Guide**: Step-by-step instructions to create and maintain a sourdough starter.
 - **Recipes**:
-  - **Sourdough Bread**: Classic and artisan recipes.
+  - **Sourdough Bread**: My go-to sourdough bread recipe.
   - **Discard Recipes**: Creative ways to use leftover starter discard.
   - **Recipe Search**: Search for a recipe using Spoonacular API based on the ingredients you have on hand.
 - **Sourdough Quality Check**: Check the quality of your sourdough loaf by uploading a picture using Google Vision API.
@@ -31,21 +33,6 @@ This website is a personal project designed to simplify sourdough baking for beg
 
 - **HTML5**: For structuring content.
 - **CSS3**: For styling and layout.
-- **Google Fonts**: For custom typography.
+- **JavaScript**: For animations.
 - **Git & GitHub**: Version control and project hosting.
 - **VS Code**: My text editor of choice.
-
----
-
-## 📄 License
-This project is licensed under the MIT License. You’re free to use and adapt this project for personal or educational purposes.
-
----
-
-## 🚀 Getting Started
-
-To run this project locally:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/sourdough-website.git
