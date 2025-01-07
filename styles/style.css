@@ -186,7 +186,7 @@ footer {
 }
 
 .breadySetGo .textContent{ /* Sliding animation */
-    animation: slideInFromLeft 1s ease-out forwards;
+    animation: slideInFromLeft 1.2s ease-out forwards;
 }
 
 .imageContent img{
@@ -416,4 +416,23 @@ button:hover {
 
 .panel.active{
     display: block; /* show the answer if the user selects the question */
+}
+
+/***************************************************************************** starter guide *********************************************/
+.flourPower{
+    margin: 20px;
+    
+    /* initially not visible */
+    opacity: 0;
+    transform: translateY(50px);
+
+    /* slide up animation */
+    animation: slideUp 1s ease-out 0.5s forwards;
+}
+
+.flourPower img{
+    width: 350px;
+    height: 390px;
+    border-radius: 30%; /* circle shape */
+    object-fit: cover; /* keep aspect ratio */
 }

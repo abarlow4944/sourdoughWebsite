@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() { // wait for HTML cont
             entries.forEach(entry => { //check every entry
                 if (entry.isIntersecting) { //if About Me is visible in the browser window, animation starts
                     images.forEach((image, index) => { // for each image
-                        image.style.animation = `slideUp 1s ease-out ${index * 0.6}s forwards`; //do the slide up animation
+                        image.style.animation = `slideUp 1s ease-out ${index * 0.8}s forwards`; //do the slide up animation
                     });
                     observer.unobserve(entry.target); // Stop observing target after animation starts
                 }
