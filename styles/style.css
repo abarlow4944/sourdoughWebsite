@@ -420,14 +420,15 @@ button:hover {
 
 /***************************************************************************** starter guide *********************************************/
 .flourPower{
-    margin: 20px;
-    
+
     /* initially not visible */
     opacity: 0;
     transform: translateY(50px);
 
     /* slide up animation */
     animation: slideUp 1s ease-out 0.5s forwards;
+
+    background-color: var(--cream);
 }
 
 .flourPower img{
@@ -435,4 +436,75 @@ button:hover {
     height: 390px;
     border-radius: 30%; /* circle shape */
     object-fit: cover; /* keep aspect ratio */
+}
+
+/* starter guide tabs */
+.starterGuideTabs {
+    padding: 100px 150px 0px 150px;
+    background-color: white;
+}
+
+.tabs {
+    display: flex;
+    cursor: pointer;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: var(--salmon);
+    color: var(--white);
+    margin-right: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    z-index: 1;
+
+    border: solid;
+    border-color: var(--salmon);
+    border-width: 5px;
+    border-radius: 6px 6px 0 0; /* Rounded corners only at the top */
+}
+
+.tab:hover{
+    color: var(--brown);
+}
+
+.tabContent {
+    margin-top: -2px;
+    padding: 40px 50px;
+    background-color: var(--white);
+    border-radius: 0 0 6px 6px; /* Rounded corners only at the bottom */
+
+    border: solid;
+    border-color: var(--salmon);
+    border-width: 5px;
+}
+
+.tabContent p{
+    color: var(--brown);
+}
+
+.instructions{
+    background-color: var(--white);
+    border-radius: 6px;
+    margin: 20px 60px;
+}
+
+.instructions h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--salmon);
+}
+
+.instructions h3{
+    font-size: 30px;
+    color: var(--salmon);
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.instructions p{
+    color: var(--brown);
+    padding: 20px;
 }
