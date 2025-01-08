@@ -451,36 +451,44 @@ button:hover {
 
 .tab {
     padding: 10px 20px;
-    background-color: var(--salmon);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--salmon);
     margin-right: 5px;
     font-weight: bold;
     transition: 0.3s ease;
     z-index: 1;
-
     border: solid;
     border-color: var(--salmon);
-    border-width: 5px;
+    border-width: 5px 5px 3px 5px;
     border-radius: 6px 6px 0 0; /* Rounded corners only at the top */
+}
+
+.tab.active{
+    background-color: var(--salmon);
+    color: var(--white);
 }
 
 .tab:hover{
     color: var(--brown);
 }
 
-.tabContent {
+.tabContent.active {
     margin-top: -2px;
     padding: 40px 50px;
     background-color: var(--white);
-    border-radius: 0 0 6px 6px; /* Rounded corners only at the bottom */
-
     border: solid;
     border-color: var(--salmon);
     border-width: 5px;
+    display: block;
+}
+
+.tabContent{
+    display: none;
 }
 
 .tabContent p{
     color: var(--brown);
+    padding: 40px 80px 20px 80px;
 }
 
 .instructions{
