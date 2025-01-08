@@ -440,7 +440,7 @@ button:hover {
 
 /* starter guide tabs */
 .starterGuideTabs {
-    padding: 100px 150px 0px 150px;
+    padding: 100px 150px 100px 150px;
     background-color: white;
 }
 
@@ -515,4 +515,8 @@ button:hover {
 .instructions p{
     color: var(--brown);
     padding: 20px;
+}
+
+.maintenanceTips{
+    padding: 80px 150px;
 }
