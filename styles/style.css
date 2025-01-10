@@ -582,12 +582,16 @@ button:hover {
     border-width: 5px;
 }
 
+.recipeIntro{
+    padding: 40px 80px;
+}
+
 .sampleSchedule{
     border: dotted;
     border-color: var(--salmon);
     border-width: 4px;
     border-radius: 5x;
-    margin: -25px 230px;
+    margin: -25px 230px 40px 230px;
     padding: 30px 15px 15px 15px;
     z-index: 1;
     
