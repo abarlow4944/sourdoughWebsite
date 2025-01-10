@@ -503,9 +503,12 @@ button:hover {
 }
 
 .instructions{
-    background-color: var(--white);
     border-radius: 6px;
     margin: 20px 60px;
+}
+
+.instructions p{
+    padding: 10px 20px;
 }
 
 .instructions h2{
@@ -523,11 +526,6 @@ button:hover {
     padding-bottom: 0px;
 }
 
-.instructions p{
-    color: var(--brown);
-    padding: 20px;
-}
-
 .maintenanceTips{
     padding: 80px 150px;
 }
@@ -535,6 +533,7 @@ button:hover {
 /********************************************************************************** bread recipe ******************************************/
 .loafFirstSight{
     position: relative;
+    padding-bottom:30px;
 
     /* initially not visible */
     opacity: 0;
@@ -583,7 +582,21 @@ button:hover {
     border-width: 5px;
 }
 
-.recipe p{
-    color: var(--brown);
-    padding: 40px 80px 20px 80px;
+.sampleSchedule{
+    border: dotted;
+    border-color: var(--salmon);
+    border-width: 4px;
+    border-radius: 5x;
+    margin: -25px 230px;
+    padding: 30px 15px 15px 15px;
+    z-index: 1;
+    
+}
+
+.sampleScheduleTitle{
+    background-color: var(--white);
+    z-index: 5;
+    margin: 0px 330px 0px 250px;
+    padding: 0px;
+    position: relative;
 }
