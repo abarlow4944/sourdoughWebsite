@@ -570,3 +570,20 @@ button:hover {
     left: 0px; 
     z-index: 2; 
 }
+
+.breadRecipe{
+    background-color: var(--white);
+    padding: 100px 150px 100px 150px;
+}
+
+.recipe{
+    padding: 40px 50px;
+    border: solid;
+    border-color: var(--salmon);
+    border-width: 5px;
+}
+
+.recipe p{
+    color: var(--brown);
+    padding: 40px 80px 20px 80px;
+}
