@@ -252,7 +252,8 @@ footer {
     margin: 0px 400px;
     border-style: dotted;
     border-color: var(--salmon);
-    border-radius: 2%;
+    border-width: 5px;
+    border-radius: 7px;
     padding: 70px 20px;
 }
 
@@ -589,8 +590,8 @@ button:hover {
 .sampleSchedule{
     border: dotted;
     border-color: var(--salmon);
-    border-width: 4px;
-    border-radius: 5x;
+    border-width: 5px;
+    border-radius: 8px;
     margin: -25px 230px 40px 230px;
     padding: 30px 15px 15px 15px;
     z-index: 1;
@@ -600,7 +601,7 @@ button:hover {
 .sampleScheduleTitle{
     background-color: var(--white);
     z-index: 5;
-    margin: 0px 330px 0px 250px;
+    margin: 0px 332px 0px 250px;
     padding: 0px;
     position: relative;
 }
