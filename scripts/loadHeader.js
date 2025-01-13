@@ -2,7 +2,7 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('header.html') // retrieve header file
+    fetch('../html/header.html') // retrieve header file
         .then(response => response.text()) // convert the response into plain text
         .then(data => { //put the data into headerPlaceholder
             document.getElementById('headerPlaceholder').innerHTML = data;
