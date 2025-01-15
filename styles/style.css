@@ -605,3 +605,38 @@ button:hover {
     padding: 0px;
     position: relative;
 }
+
+/************************************************************ discard recipes page ***********************************************/
+.discardRecipeMenu{
+    margin: 80px 150px;
+}
+.recipeGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 60px;
+}
+
+.recipeItem{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.recipeItem img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.recipeText{
+    background-color: var(--white);
+    padding: 40px 0px 40px 20px;
+    margin-top: -150px;
+    border-radius: 0px 0px 8px 8px;
+    border-top: none;
+}
+
+.recipeText h2{
+    font-size: 20px;
+}
