@@ -387,6 +387,10 @@ button:hover {
     background-color: var(--brown);
 }
 
+.faqMenu li.active {
+    background-color: var(--brown);
+}
+
 .faqContent{
     flex: 3;
 }

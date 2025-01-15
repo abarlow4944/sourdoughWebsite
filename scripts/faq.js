@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
     menuItems.forEach(menuItem => {
         menuItem.addEventListener("click", () => { //if a menu item is clicked
             faqSections.forEach(section => section.classList.remove("active")); //hide each faq section
-            
+            menuItems.forEach(mi => mi.classList.remove("active")); //remove the brown colour from each button
+
             const topic = menuItem.dataset.topic; //get the data-topic value of the selected menuItem
             document.getElementById(topic).classList.add("active"); //show the faqContent of the selected menuItem
+            menuItem.classList.add("active");
         });
     });
 
