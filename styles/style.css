@@ -571,7 +571,7 @@ button:hover {
     z-index: 2; 
 }
 
-.breadRecipe{
+.recipeContainer{
     background-color: var(--white);
     padding: 100px 150px 100px 150px;
 }
@@ -583,7 +583,7 @@ button:hover {
     border-width: 5px;
 }
 
-.recipeIntro{
+.recipeBlurb{
     padding: 40px 80px;
 }
 
@@ -610,6 +610,7 @@ button:hover {
 .discardRecipeMenu{
     margin: 80px 150px;
 }
+
 .recipeGrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -640,3 +641,36 @@ button:hover {
 .recipeText h2{
     font-size: 20px;
 }
+
+/************************************************************ individual recipes **************************************************/
+button a{
+    color:var(--white);
+    text-decoration: none;
+    padding: 30px;
+}
+
+.recipeBackButton{
+    margin: 30px;
+}
+
+.recipeIntro{
+    /* initially not visible */
+    opacity: 0;
+    transform: translateY(50px);
+
+    /* slide up animation */
+    animation: slideUp 1s ease-out 0.5s forwards;
+    background-color: var(--cream);
+}
+
+.recipeIntro .contentWrapper{
+    padding-top: 30px;
+}
+
+.recipeIntro .contentWrapper img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
