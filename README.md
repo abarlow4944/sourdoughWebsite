@@ -17,12 +17,12 @@ Through building this site, I've gained hands-on experience in coding, designing
 - **Home Page**: An introduction to sourdough baking and a personal note about my journey.
 - **FAQ**: Answers to common sourdough questions to troubleshoot your baking.
 - **Sourdough Starter Guide**: Step-by-step instructions to create and maintain a sourdough starter.
-- **Recipes**:
+- **Recipes**: A collection of my favourite recipes.
   - **Sourdough Bread**: My go-to sourdough bread recipe.
   - **Discard Recipes**: Creative ways to use leftover starter discard.
   - **Recipe Search**: Search for a recipe using Spoonacular API based on the ingredients you have on hand.
 - **Sourdough Quality Check**: Check the quality of your sourdough loaf by uploading a picture using Google Vision API.
-- **Shop**:
+- **Shop**: A hypothetical online shop where users can order all things sourdough.
   - **Sourdough Loaves**: Order a custom sourdough loaf based on flour type and inclusions.
   - **Sourdough Starters**: Order a sourdough starter to kickstart your baking journey.
   - **Sourdough Tools**: Order bread lames, bench scrapers, and bannetons from a Walmart near you using Walmart API.
