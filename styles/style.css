@@ -655,7 +655,6 @@ button:hover {
     background-color: var(--white);
     padding: 40px 0px 40px 20px;
     margin-top: -150px;
-    border-radius: 0px 0px 8px 8px;
     border-top: none;
     z-index: 3;
 }
