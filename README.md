@@ -2,6 +2,8 @@
 
 Welcome to **Alicia's Guide to Sourdough**, a beginner-friendly website dedicated to the art of sourdough baking! Whether you're nurturing your very first starter or crafting artisan loaves, this site provides resources, tips, and inspiration to help your sourdough journey thrive.
 
+Check out the website [here!](https://aliciasguidetosourdough.netlify.app/) (still under construction)
+
 ---
 
 ## 📖 Project Overview
