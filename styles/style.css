@@ -58,6 +58,8 @@ body {
     color: var(--salmon); /* font colour */
     background-color: var(--cream); /* background */
     width: 100%;
+
+    padding-top: 250px;
 }
 
 .hidden{
@@ -92,6 +94,13 @@ header {
     padding: 70px;
     text-align: center;
     padding-bottom: 20px;
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 a{
@@ -100,10 +109,11 @@ a{
 
 /* Navigation Menu */
 .navBar{
-    position: sticky; /* Keep the navigation bar at the top even as you scroll */
-    top: -1px; /* Anchor to top */
-    z-index: 1000; /* Keep on top of other elements */
+    position: fixed; /* Keep the navigation bar at the top even as you scroll */
+    top: 180px; /* Anchor to top */
+    z-index: 999; /* Keep on top of other elements */
     background: var(--salmon);
+    width: 100%;
 }
 
 .navBar nav {
@@ -137,6 +147,7 @@ a{
 .dropdown {
     position: relative; 
 }
+
 .dropdown .dropdownContent{
     visibility: hidden;
     position: absolute;
@@ -686,4 +697,3 @@ button a{
     border-radius: 50%;
     object-fit: cover;
 }
-
