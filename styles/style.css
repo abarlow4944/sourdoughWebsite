@@ -108,14 +108,14 @@ a{
 
 .navBar.fixed {
     position: fixed;
-    top: 0;
+    top: 0; /* keep the nav bar at the top of the screen when scrolling*/
     width: 100%;
     z-index: 1000;
 }
 
 
 .navBar nav {
-    padding: 10px 0; /* Add some padding inside the navigation */
+    padding: 10px 0;
 }
 
 .menu {
