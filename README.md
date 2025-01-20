@@ -10,7 +10,7 @@ Check out the website [here!](https://aliciasguidetosourdough.netlify.app/) (sti
 
 This personal project, my first website, is a culmination of my passion for sourdough bread and my journey into web development. All the skills used to create this site are completely self-taught, and it's been an exciting process of learning and growing. The website is meant to simplify sourdough baking for beginners, and it covers everything from understanding sourdough starters to exploring creative recipes and building a thriving baking community. 
 
-Through building this site, I've gained hands-on experience in coding, designing, and implementing features like responsive layouts, interactive elements, and APIs. My hope is that this project serves as a foundation for future endeavours, where I can explore more advanced tools and concepts (Bootstrap, NodeJS, React etc) to create even more complex and dynamic websites.
+Through building this site, I've gained hands-on experience in coding, designing, and implementing features like responsive layouts, interactive elements, and APIs. My hope is that this project serves as a foundation for future endeavours, where I can explore more advanced tools and concepts (Bootstrap, Node.js, React etc) to create even more complex and dynamic websites.
 
 ---
 
@@ -23,7 +23,6 @@ Through building this site, I've gained hands-on experience in coding, designing
   - **Sourdough Bread**: My go-to sourdough bread recipe.
   - **Discard Recipes**: Creative ways to use leftover starter discard.
   - **Recipe Search**: Search for a recipe using Spoonacular API based on the ingredients you have on hand.
-- **Sourdough Quality Check**: Check the quality of your sourdough loaf by uploading a picture using Google Vision API.
 - **Shop**: A hypothetical online shop where users can order all things sourdough.
   - **Sourdough Loaves**: Order a custom sourdough loaf based on flour type and inclusions.
   - **Sourdough Starters**: Order a sourdough starter to kickstart your baking journey.
