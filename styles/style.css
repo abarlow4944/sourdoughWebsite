@@ -706,18 +706,13 @@ button a{
     justify-content: space-between;
     align-items: center;
     gap: 70px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .kneadWrapper .textContent{
     margin-left: 250px;
     margin-top: -60px;
     flex: 1;
-}
-
-.kneadWrapper .imageContent {
-    position: relative;
-    z-index: 1;
 }
 
 .kneadWrapper .imageContent img{
