@@ -88,10 +88,13 @@ p {
 }
 
 header {
+    position: relative;
+
     background: var(--salmon);
     padding: 70px;
     text-align: center;
     padding-bottom: 20px;
+    z-index: 1000;
 }
 
 a{
@@ -100,6 +103,7 @@ a{
 
 /* Navigation Menu */
 .navBar {
+    position: relative;
     background: var(--salmon);
     transition: position 0.3s ease;
     width: 100%;
@@ -693,4 +697,33 @@ button a{
     height: 400px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/****************************************************** recipe search page ***************************************************/
+.kneadInspiration .kneadWrapper{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    overflow-x: hidden;
+}
+
+.kneadWrapper .textContent{
+    margin-left: 250px;
+    margin-top: -60px;
+    flex: 1;
+}
+
+.kneadWrapper .imageContent {
+    position: relative;
+    z-index: 1;
+}
+
+.kneadWrapper .imageContent img{
+    max-width: 550px;
+    transform: rotate(210deg);
+    margin-right: -60px;
+    margin-top: -100px;
+    border-radius: 40px;
 }
