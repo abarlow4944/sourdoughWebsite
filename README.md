@@ -41,6 +41,8 @@ Through building this site, I've gained hands-on experience in coding, designing
 - Explore more advanced HTML, CSS, and JavaScript topics to become more proficient and make my code more efficient and less repetitive.
 - Experiment with frameworks such as React to create more dynamic websites, and become more proficient with Node.js to incorporate user accounts and custom features.
 - Learn more about responsive design techniques for seamless experiences on various devices.
+- Plan out the file structure of my project better to improve organization and clarity.
+- Make the website compatible on mobile.
 
 ---
 

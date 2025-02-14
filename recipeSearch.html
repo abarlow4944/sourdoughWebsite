@@ -12,18 +12,35 @@
 
     <div id="headerPlaceholder"></div>
     
-    <section class="kneadInspiration">
-        <div class="kneadWrapper">
-            <div class="textContent">
-                <h2>Knead Inspiration?</h2>
-                <p> Use our recipe search tool to find the perfect bake for every occasion. Whether you're planning a hearty loaf, creative discard recipes, or something unique, you’re just a few clicks away from your next crustworthy creation!</p>
+    <section class="recipeSearch">
+        <div class="kneadInspiration">
+            <div class="kneadWrapper">
+                <div class="textContent">
+                    <h2>Knead Inspiration?</h2>
+                    <p> Use our recipe search tool to find the perfect bake for every occasion. Whether you're planning a hearty loaf, creative discard recipes, or something unique, you’re just a few clicks away from your next crustworthy creation!</p>
+                </div>
+                <div class="imageContent">
+                    <img src="images/firstLoaf.jpg" alt="Sourdough Bread">
+                </div>
             </div>
-            <div class="imageContent">
-                <img src="images/firstLoaf.jpg" alt="Sourdough Bread">
-            </div>
+        </div>
+    
+        <div class="searchContainer">
+            <input type="text" id="searchInput" placeholder="Search recipes (e.g., discard cookies)" />
+            <select id="dietFilter">
+                <option value="">No Diet Filter</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="glutenFree">Gluten Free</option>
+            </select>
+
+            <input class="starterInput" type="number" min="0" id="starterAmount" placeholder="Starter amount (grams)" />
+            <button class="searchButton">Search</button>
+
+
+
 
         </div>
-
     </section>
 
     
