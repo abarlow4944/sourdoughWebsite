@@ -704,13 +704,14 @@ button a{
 }
 
 .kneadInspiration .kneadWrapper{
-    background: white;
+    background: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
     overflow: hidden;
     padding-bottom: 70px;
+    margin-bottom:
 }
 
 .kneadWrapper .textContent{
