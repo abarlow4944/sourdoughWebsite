@@ -12,10 +12,13 @@ app.use(cors()); // allow frontend to talk to backend
 app.listen(PORT, () => console.log(`App listening on port ${PORT}`)); //when the server starts, creates a log
 
 //set up route
-// Define route to fetch recipes
-router.get("/recipes", async (req, res) => {
-    const { searchQuery, vegetarian, vegan, glutenFree, starterAmount } = req.query;
+router.get("/recipeSearch", async (req, res) => {
+    const { query, vegetarian, vegan, glutenFree, starterAmount } = req.query; //get query parameters
+
+    const apiURL = `https://api.spoonacular.com/recipes/complexSearch`;
+    const params = {
+      apiKey: API_KEY,
+
+    }
 
   });
-
-module.exports = router; //export the router
