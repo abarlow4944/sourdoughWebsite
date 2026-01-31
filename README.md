@@ -29,6 +29,38 @@ Through building this site, I've gained hands-on experience in coding, designing
 
 ---
 
+## 📷 Website Screenshots
+
+### 🏠 Landing Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1171d181-283a-445d-a73d-ef5b06aeb9c5"
+       alt="Landing Page for Regular User"
+       width="100%" />
+
+</p>
+
+---
+
+### ❓ FAQ Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c6266a88-7116-4eb0-a52f-5e10e1a7fbf5"
+       alt="Landing Page for Regular User"
+       width="100%" />
+
+</p>
+
+---
+
+### 🍞 Recipes Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9896d505-9e1f-45e6-8dad-8e3a65808f76"
+       alt="Landing Page for Regular User"
+       width="100%" />
+
+</p>
+
+---
+
 ## 💡 Lessons Learned & Areas of Improvement
 
 **Lessons Learned**:
